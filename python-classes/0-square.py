@@ -7,10 +7,10 @@ class Square:
     """
     square size class
     """
-    size = 0
+    __size = 0
 
-    def __init__(self,size):
+    def __init__(self, size):
         """
-        init documentation
+        class rewiews
         """
         self.__size = size
