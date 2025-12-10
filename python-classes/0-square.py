@@ -1,4 +1,7 @@
 #!/usr/bin/python3
-""" square class"""
+""" 
+square class
+
+"""
 class Square:
     __size = 0
