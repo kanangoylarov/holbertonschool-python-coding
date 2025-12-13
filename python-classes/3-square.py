@@ -12,6 +12,15 @@ class Square:
         """class rewiews
         """
         self.__size = size
+        if type(self.__size) is not int:
+            raise TypeError("size must be an integer")
+        if self.__size < 0:
+            raise ValueError("size must be >= 0")
+
+    def area(self):
+        """area of square"""
+
+        return self.__size * self.__size
 
         @property
         def size(self):
