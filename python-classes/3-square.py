@@ -27,8 +27,9 @@ class Square:
         """getter of size"""
 
         return self.__size
+
     @size.setter
-    def size(self,value):
+    def size(self, value):
         """setter of value"""
 
         if type(value) is not int:
