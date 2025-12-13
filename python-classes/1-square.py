@@ -3,7 +3,7 @@
 """
 
 
-class Square(Exception):
+class Square:
     """square size class error
     """
     __size = 0
