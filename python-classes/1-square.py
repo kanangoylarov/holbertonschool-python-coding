@@ -7,6 +7,7 @@ class Square:
     """square size class error
     """
     __size = 0
+
     def __init__(self, size):
         """class rewiews
         """
